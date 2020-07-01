@@ -13,13 +13,16 @@ Analysis of Windows Event Logs using pandas DataFrame
 ---
 ` Pandas это высокоуровневая Python библиотека для анализа данных.`
 
-### const meaning = 
+### const meaning =
 ---
 ` Aнализ Журналa событий Windows с помощью библиотеки Pandas
 
 
 
-===
+---
 
 
-![alt img1](https://i0.wp.com/3.404content.com/1/59/D3/1551408486412191672/fullsize.png "img 1")
+
+* Keys ![alt img1](https://i0.wp.com/3.404content.com/1/59/D3/1551408486412191672/fullsize.png "img 1")
+* asd
+* asd
