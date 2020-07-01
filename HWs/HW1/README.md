@@ -23,6 +23,10 @@ Analysis of Windows Event Logs using pandas DataFrame
 
 
 
-* Keys ![alt img1](https://i0.wp.com/3.404content.com/1/59/D3/1551408486412191672/fullsize.png "img 1")
-* asd
-* asd
+* ![alt windows event logs](https://i0.wp.com/3.404content.com/1/59/D3/1551408486412191672/fullsize.png "img 1")
+* ![alt windows event logs](https://media.geeksforgeeks.org/wp-content/uploads/finallpandas.png "img 2")
+* ![alt windows event logs](https://pandas.pydata.org/pandas-docs/stable/_images/area_plot_stacked.png "img 3")
+* ![alt windows event logs](https://pandas.pydata.org/pandas-docs/stable/_images/area_plot_stacked.png "img 4")
+* ![alt windows event logs](https://pandas.pydata.org/pandas-docs/stable/_images/area_plot_stacked.png "img 5")
+
+Sbor dannih 
