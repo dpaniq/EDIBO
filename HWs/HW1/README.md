@@ -15,12 +15,7 @@ Analysis of Windows Event Logs using pandas DataFrame
 
 ### const meaning =
 ---
-` Aнализ Журналa событий Windows с помощью библиотеки Pandas
-
-
-
----
-
+` Aнализ Журналa событий Windows с помощью библиотеки Pandas.`
 
 
 * ![alt windows event logs](https://i0.wp.com/3.404content.com/1/59/D3/1551408486412191672/fullsize.png "img 1")
