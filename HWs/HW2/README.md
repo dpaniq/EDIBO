@@ -5,8 +5,10 @@
 
 ---
 
-### Linux in Windows:
+### Linux could be installed on Windows as:
 
-1. asd
-2. 23
-3. asd
+1. Second OS
+2. Subsystem (special extension for windows)
+3. Flash (portable version)
+4. .iso file into virtualMachine
+5. Docker Container with Linux distributive image
