@@ -1,1 +1,138 @@
-red
+
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  c:\
+    4  help (ln)
+    5  help --ln
+    6  ln --help
+    7  history
+    8  ls px
+    9  ls-px
+   10  p
+   11  help
+   12  ls .
+   13  clear
+   14  ls /
+   15  help
+   16  ls
+   17  clear
+   18  ps aux
+   19  ps aux | grep chrome
+   20  date
+   21  kill -9 chrome
+   22  kill -9 5875
+   23  cd Desktop
+   24  ls -l
+   25  total 4
+   26  ls --help
+   27  pwd
+   28  ls
+   29  ~
+   30  cd Desktop
+   31  ~
+   32  ls
+   33  pwd
+   34  mkdir test
+   35  ps aux | grep chrome
+   36  kill -9 5243
+   37  kill -9 14428
+   38  ps -aux | grep chrome
+   39  ps -aux | grep chrome]
+   40  ps -aux | grep chrome
+   41  ps aux
+   42  kill -9 5187
+   43  kill -9 5205
+   44  ps aux
+   45  kill -9 4936
+   46  ps aux
+   47  kill -9 4525
+   48  ps aux
+   49  kill -9 4481
+   50  ps aux
+   51  ps aux | grep chrome
+   52  ls -l
+   53  clear
+   54  cd 
+   55  pwd
+   56  ~
+   57  cd ~
+   58  pwd
+   59  ls
+   60  cd Desktop
+   61  cd `
+   62  cd ..
+   63  ls
+   64  cd etc
+   65  l
+   66  cd ~
+   67  pwd
+   68  cd Desktop
+   69  cd ..
+   70  ls
+   71  ls .
+   72  ls /
+   73  cd etc
+   74  cd /etc
+   75  cd ..
+   76  ls --help
+   77  ls | head 3
+   78  ls | 3
+   79  ls | 3 head
+   80  ls --help
+   81  ls | grep -s 3
+   82  ls | head -s
+   83  ls | head - 3
+   84  ls --help
+   85  ls | head -s
+   86  head --help
+   87  ls | head -c 3
+   88  ls | head -c3
+   89  ..
+   90  ls
+   91  cd etc
+   92  cd ..
+   93  ls | grep
+   94  ls
+   95  ls -l
+   96  ls | wc -l
+   97  ls | wc
+   98  wc --help
+   99  ls | wc -l
+  100  ls
+  101  ls | wc -c
+  102  ls | wc -l
+  103  a = 44
+  104  4=44
+  105  a=44
+  106  z=55
+  107  echo a.z
+  108  echo `a.z`
+  109  echo `a`
+  110  echo a + z
+  111  echo a
+  112  a=44
+  113  b=55
+  114  echo a
+  115  echo $a.$b
+  116  echo ($a + $b)
+  117  echo ${$a} + ${$b}
+  118  echo ${$a + $b}
+  119  echo ${a + b}
+  120  echo int($a)
+  121  echo $((a + b))
+  122  cd Desktop
+  123  echo 32 UR > a.txt
+  124  ls
+  125  head a.txt
+  126  rm a.txt
+  127  ls
+  128  echo $((32 / 0)) > a.txt
+  129  ls
+  130  java
+  131  java --version
+  132  python
+  133  history
+  134  cd Deskotpp
+  135  cd Desktop/
+  136  history
+  137  history > a.txt
