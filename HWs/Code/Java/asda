@@ -1,0 +1,28 @@
+import java.util.Random;
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner scn = new Scanner(System.in);
+    Random rnd = new Random();
+    int count = 0;
+    int randomNumber = rnd.nextInt(100);
+    int currentNumber = -1;
+    
+    System.out.println("0 < X < 100; Try to find X. Answer " + randomNumber);
+    while (currentNumber != randomNumber) {
+      System.out.println("Tried " + count + " times\nX = ");
+      currentNumber = scn.nextInt();
+
+      if (currentNumber < randomNumber) {
+        System.out.println("Your number is lower!");
+      } else {
+        System.out.println("Your number is higher!");
+      }
+      count++;
+    }
+
+    System.out.println("Bingo! :)");
+  }
+}
