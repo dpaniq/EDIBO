@@ -22,9 +22,14 @@ cmd -> vimtutor
 * CTRL + r(R) - rollback of rollback (decline u)
 
 ##### Edit text:
-* r[character] - change next character with [ch].
+* r[character] - change next character after caret with [ch]. R - for changing more than one character
 * x - remove next symbol. X - remove previus symbol
-* p - paste it here
+* y - copy
+* p - paste
+* a - add text. A - add text from the end of the line
+* o - insert new line + Insert mode. O - insert new line before caret + Insert mode.
+* w - next word
+* e - next word's end
 ---
 **d (delete) [operator] object**
 * d - delete line. D - delete line starting of caret place
@@ -35,9 +40,6 @@ cmd -> vimtutor
 * d& - delete text from caret to the end of the line 
 * dd - delete line (save to the buffer)
 * [1..N]dd - delete N lines
----
-* a - add text. A - add text from the end of the line
-* o - insert new line + Insert mode. O - insert new line before caret + Insert mode.
 ---
 **c (replace) *[N] + c + object* or *c + [N] object***
 * ce - cut the end of word and switch on the INSERT mode
