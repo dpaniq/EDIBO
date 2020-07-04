@@ -7,7 +7,7 @@ cmd -> vimtutor
 * v -> visual mode (select text)
 * 
 
-##### Movement:
+#### Movement:
 * h,j,k,l - left down up right
 * 0 - to the start of the line
 * [1..N]w - move to the start of next N word
@@ -22,7 +22,7 @@ cmd -> vimtutor
 * x - remove next symbol. X - remove previus symbol
 * p - paste it here
 
-* **d (delete) [operator] object**
+**d (delete) [operator] object**
 * d - delete line. D - delete line starting of caret place
 * dw - delete word with space
 * d[1..N]w - delete N words
