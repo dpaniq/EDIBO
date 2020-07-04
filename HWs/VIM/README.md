@@ -34,7 +34,8 @@ cmd -> vimtutor
 ---
 * a - add text. A - add text from the end of the line
 ---
-* c 
+**c (replace) *[N] + c + object* or *c + [N] object***
+* 
 * ce - cut the end of word and switch on the INSERT mode
 
 ##### Comands in normal mode:
