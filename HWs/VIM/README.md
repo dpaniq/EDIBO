@@ -1,23 +1,23 @@
 cmd -> vimtutor
 # Commands:  
 
-### Mods:
+#### Mods:
 * ESC -> Normal mode
 * i -> insert mode
 * v -> visual mode (select text)
 * 
 
-#### Movement:
+##### Movement:
 * h,j,k,l - left down up right
 * 0 - to the start of the line
 * [1..N]w - move to the start of next N word
 * [1..N]e - move to the end of next N word
 
-#### Editor tools:
+##### Editor tools:
 * u - undo previous command. U - return original line
 * CTRL + r(R) - rollback of rollback (decline u)
 
-#### Edit text:
+##### Edit text:
 * r[character] - change next character with [ch].
 * x - remove next symbol. X - remove previus symbol
 * p - paste it here
