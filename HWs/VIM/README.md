@@ -21,7 +21,7 @@ cmd -> vimtutor
 * r[character] - change next character with [ch].
 * x - remove next symbol. X - remove previus symbol
 * p - paste it here
-
+---
 **d (delete) [operator] object**
 * d - delete line. D - delete line starting of caret place
 * dw - delete word with space
@@ -31,8 +31,11 @@ cmd -> vimtutor
 * d& - delete text from caret to the end of the line 
 * dd - delete line (save to the buffer)
 * [1..N]dd - delete N lines
-
+---
 * a - add text. A - add text from the end of the line
+---
+* c 
+* ce - cut the end of word and switch on the INSERT mode
 
 ##### Comands in normal mode:
 * :q! - exit without saves
