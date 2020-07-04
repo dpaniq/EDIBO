@@ -89,26 +89,6 @@ cmd -> vimtutor
 * Vim command argument        -        :help -r
 * Option                      '        :help 'textwidth'
 * Regular expression          /        :help /[
-
-   Vim имеет намного больше возможностей, чем Vi, но большинство из них по
-  умолчанию выключены. Для использования больших возможностей вам следует
-  создать файл `vimrc'.
-
-  1. Отредактируйте новый файл `vimrc'. Его расположение зависит от
-     используемой системы:
-        :e ~/.vimrc             для Unix
-        :e $VIM/_vimrc          для MS-Windows
-
-  2. Теперь прочитайте пример файла `vimrc':
-        :r $VIMRUNTIME/vimrc_example.vim
-
-  3. Запишите созданный вами новый файл `vimrc':
-        :w
-
-  Теперь при следующем запуске Vim будет включена подсветка синтаксиса. Все
-  настройки, предпочитаемые вами, могут быть добавлены в файл `vimrc'.
-  Для дальнейшей информации наберите  :help vimrc-intro
-
  
 ## Anki:
  * https://ankiweb.net/shared/info/1557429385(https://ankiweb.net/shared/info/1557429385)
