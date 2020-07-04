@@ -46,9 +46,9 @@ cmd -> vimtutor
 ##### Comands in normal mode:
 * :q! - exit without saves
 * :wq! - save file and exit. (write quit)
-* :w <filename> - to save filename. v + j,k + w <filename>
-* :! <outer command> - execute outer command (:!ls / :!ls / :rm <filename>)
-* :r <filename> - reading file and insert it. :r !ls - reading output outer command.
+* :w filename - to save filename. v + j,k + w filename
+* :! outer command - execute outer command (:!ls / :!ls / :rm filename>
+* :r filename - reading file and insert it. :r !ls - reading output outer command.
 
 ##### Other:
 * CTRL + g - [path|status|i-string|% of file].
@@ -63,10 +63,10 @@ cmd -> vimtutor
 * CTRL + o(O) - move back before searching
 * CTRL + i(I) - move forward before searching ?
 ---
-* % [**before (,{,[**] - find pair
+* % **before (,{,[** - find pair
 ---
-* :s/<was>/<became> - for change 'was' to 'became' one time
-* :s/<was>/<became>/g - for change 'was' to 'became' inside string
+* :s/was/became - for change 'was' to 'became' one time
+* :s/was/became/g - for change 'was' to 'became' inside string
 * :#,#s/было/стало/g - these #,# are numbers of strings.
 * :%s/было/стало/gc - for change 'was' to 'became' inside entire file.
  
