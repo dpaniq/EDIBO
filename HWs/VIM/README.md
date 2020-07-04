@@ -1,3 +1,5 @@
- ### Commands: 
- * h,j,k,l - left down up right
+[tutorial:]vimtutor
+### Commands:  
+* h,j,k,l - left down up right
+ 
   
