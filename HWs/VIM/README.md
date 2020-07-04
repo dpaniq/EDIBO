@@ -20,14 +20,16 @@ cmd -> vimtutor
 * n - next forward. N - next backward
 * u - undo previous command. U - return original line
 * CTRL + r(R) - rollback of rollback (decline u)
+* CTRL + W(x2)- for change work window
 
 ##### Edit text:
 * r[character] - change next character after caret with [ch]. R - for changing more than one character
 * x - remove next symbol. X - remove previus symbol
-* y - copy
+* y - copy. yw - copy one word
 * p - paste
 * a - add text. A - add text from the end of the line
 * o - insert new line + Insert mode. O - insert new line before caret + Insert mode.
+* j - move caret on the next line. j$ - move caret to the end of next line
 * w - next word
 * e - next word's end
 ---
@@ -72,7 +74,42 @@ cmd -> vimtutor
 * :#,#s/было/стало/g - these #,# are numbers of strings.
 * :%s/было/стало/gc - for change 'was' to 'became' inside entire file.
  
+### Set Proporties:
+: set command_name \c - command only for one searching
+* :set ic - ignore text case. :set noic - set case
+* :set hls is - hlsearch and incsearch - searching highlights. :nohlsearch - no hightlights
  
- ## Anki:
+#### Help:
+* F1 or :help - help
+* Normal mode command                  :help x
+* Visual mode command         v_       :help v_u
+* Insert mode command         i_       :help i_<Esc>
+* Command-line command        :        :help :quit
+* Command-line editing        c_       :help c_<Del>
+* Vim command argument        -        :help -r
+* Option                      '        :help 'textwidth'
+* Regular expression          /        :help /[
+
+   Vim имеет намного больше возможностей, чем Vi, но большинство из них по
+  умолчанию выключены. Для использования больших возможностей вам следует
+  создать файл `vimrc'.
+
+  1. Отредактируйте новый файл `vimrc'. Его расположение зависит от
+     используемой системы:
+        :e ~/.vimrc             для Unix
+        :e $VIM/_vimrc          для MS-Windows
+
+  2. Теперь прочитайте пример файла `vimrc':
+        :r $VIMRUNTIME/vimrc_example.vim
+
+  3. Запишите созданный вами новый файл `vimrc':
+        :w
+
+  Теперь при следующем запуске Vim будет включена подсветка синтаксиса. Все
+  настройки, предпочитаемые вами, могут быть добавлены в файл `vimrc'.
+  Для дальнейшей информации наберите  :help vimrc-intro
+
+ 
+## Anki:
  * https://ankiweb.net/shared/info/1557429385(https://ankiweb.net/shared/info/1557429385)
  * https://ankiweb.net/shared/info/553269875(https://ankiweb.net/shared/info/553269875)
