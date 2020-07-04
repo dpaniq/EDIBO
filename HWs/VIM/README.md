@@ -1,3 +1,3 @@
  ### Commands: 
-  * h,j,k,l - left down up right
+ * h,j,k,l - left down up right
   
