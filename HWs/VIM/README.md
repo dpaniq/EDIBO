@@ -13,7 +13,7 @@ cmd -> vimtutor
 #### Edit text:
 * x - remove next symbol. X - remove previus symbol
 * d - remove line. D - remove line starting of caret place
-** dw - delete word.
+* dw - delete word.
 * a - add text. A - add text from the end of the line
 
 ##### Comands in normal mode:
