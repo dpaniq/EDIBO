@@ -37,3 +37,7 @@ set output "png.png"
 plot "plot2.txt"
 
 ./<filename>.<ext>
+
+
+ps 
+ps -a
