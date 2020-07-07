@@ -1,4 +1,5 @@
 cmd -> vimtutor
+[tmux ->](sudo apt install tmux)
 # Commands:  
 
 #### Mods:
