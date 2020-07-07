@@ -26,3 +26,14 @@ echo > plot2.txt;
 
 
 plot "1.dat" u 1:2, "1.dat" u 2:4 w l
+
+
+
+#! /usr/bin/gnuplot
+set size 05, 05
+set term png size (600, 400)
+set output "png.png"
+
+plot "plot2.txt"
+
+./<filename>.<ext>
