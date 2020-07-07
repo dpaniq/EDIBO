@@ -16,13 +16,10 @@ echo $d | tee -a 02.dat;
 done;
 
 
-#! /bin/bash/
-dpaniq@dpaniq:~/Documents$ hdtop                               │
-                                                               │echo > plot2.txt;
-Command 'hdtop' not found, did you mean:                       │for i in {0..10};
-                                                               │do echo $((i)) $((i*i)) $((i*i*2)) >> plot2.txt;
-  command 'htop' from deb htop                                 │done;
-  command 'hatop' from deb hatop                               │
-  command 'dtop' from deb diod                                 │# execute plot or splot
-                                                               │
-Try: sudo apt install <deb name>                               │gnuplot plot "plot2.txt";
+echo > plot2.txt;
+│for i in {0..10};
+│do echo $((i)) $((i*i)) $((i*i*2)) >> plot2.txt;
+│done;
+│
+│# execute plot or splot
+│gnuplot plot "plot2.txt";
