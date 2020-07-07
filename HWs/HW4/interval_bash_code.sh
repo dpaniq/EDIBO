@@ -23,3 +23,6 @@ echo > plot2.txt;
 │
 │# execute plot or splot
 │gnuplot plot "plot2.txt";
+
+
+plot "1.dat" u 1:2, "1.dat" u 2:4 w l
