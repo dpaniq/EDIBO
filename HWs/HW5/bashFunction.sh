@@ -26,7 +26,7 @@ toBinary(){
 
 source binary.sh
 convert 64 2 (convert=function from binary.sh, 64=val, 2=base)
-
+---
 
 Task:
 Create a BASH script ready to convert WHOLE DECIMAL NUMBER as input into BINARY NUMBER on the terminal output.
@@ -34,3 +34,17 @@ Create a BASH script ready to convert WHOLE DECIMAL NUMBER as input into BINARY 
 Restrictions: only native BASH variables-related, conditional, and loopwise operations allowed.
 
 Only allowed math construction is like
+
+---
+file1:
+
+#! /bin/bash
+
+echo $1 $2
+
+
+terminal:
+./file1 some any -> to execute 
+
+output:
+some any
