@@ -1,8 +1,8 @@
 #! /usr/bin/python3.8
 
 
-def 	 ():
+def name():
 	x = int(input('Input number below, please:\n'))
 	print('Your number is:', x)
 
-pofig()	
+name()	
