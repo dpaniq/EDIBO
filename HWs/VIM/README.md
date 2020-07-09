@@ -1,7 +1,7 @@
 cmd -> vimtutor
 
 ### VIM
-* [tmux](sudo apt install tmux)
+* [tmux](sudo apt install tmux) (tmux source-file ~/.tmux.conf)
 * [tmux commands](https://habr.com/ru/post/327630/)
 * [tmux config](https://rtfm.co.ua/linux-menedzher-terminalov-tmux-ustanovka-nastrojka-komandy/)
 
