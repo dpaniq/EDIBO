@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-<title>Title of the document</title>
+    <title>#9</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css?=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
-The content of the document......
+    <div id="container">
+        <canvas id="chart"></canvas>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">show_chart</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Chart name</label>
+                    </div>
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">linear_scale</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Dot position</label>
+                    </div>
+                    <div class="col s3">
+                        <a class="btn-floating pulse #80cbc4 teal lighten-3">
+                            <i class="material-icons">control_point</i>
+                        </a>
+                    </div>
+                    <div class="col s3">
+                        <a class="btn-floating btn-large waves-effect waves-light #80cbc4 teal lighten-3"><i class="material-icons right">autorenew</i>button</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer #80cbc4 teal lighten-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Menu</h5>
+                    <p class="grey-text text-lighten-4">Choose option below</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Mode</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instuction</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Random</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Create</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Bogdans Gromovs | Special for <a href="https://digitalbootcamps.eu/"><strong>EDIBO</strong></a>
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>   
+    <!-- Footer -->
+
+    <script src="./assets/js/chart.js"></script>
 
 </body>
-<script src="js.js"></script>
+
 </html>

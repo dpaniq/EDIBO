@@ -2,3 +2,7 @@ big task:
  Create static (local) web-page with JS with data visualisation( take data somewhere in i-net, for example, currency exchange) and plot these data (allow select number of curvsem for example, number of currencies)
 
 1. 14:10 - 15:00 web simple concept (who(or what), how; where is connected and could be accessed);
+
+1. create ui/x
+2. generate data
+3. 
